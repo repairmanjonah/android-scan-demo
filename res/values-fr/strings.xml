@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- 
+	IMPORTANT: these translations are provided as an example ONLY. 
+	They were generated with Google translate and have NOT been reviewed by a human French speaker.
+	-->
+	
+    <string name="cardioScanHintTop">Tenez la carte de crédit ici.</string>
+    <string name="cardioScanHintBottom">Il va scanner automatiquement.</string>
+    
+    <string name="cardioScanKeyboardButton">clavier...</string>
+	
+	<string name="cardioScanErrorLibLoadFail">card.io eu une erreur en accédant au dispositif de caméra.</string>
+	<string name="cardioScanErrorNoDeviceSupport">Ce périphérique ne peut pas utiliser l\'appareil pour lire les numéros de cartes.</string>	
+	<string name="cardioScanErrorCameraConnectFail">Appareil photo du téléphone n\'est pas disponible.</string>
+	<string name="cardioScanErrorUnexpectedCameraFail">Le dispositif a rencontré une erreur inattendue l\'ouverture de la caméra.</string>
+	<string name="cardioScanErrorNetworkUnavailable">Balayage de carte nécessite une connexion réseau disponible.</string>
+	<string name="cardioScanErrorNetworkFail">Impossible de se connecter au serveur. S\'il vous plaît vérifier vos paramètres réseau.</string>
+	<string name="cardioScanErrorWhoops">Oups! Impossible de lire la carte</string>
+	
+    <string name="cardioEntryCardNumber">numéro de la carte</string>
+	<string name="cardioEntryExpiry">expire</string>
+	<string name="cardioEntryCVV">CVV</string>
+	<string name="cardioEntryZip">postal</string>
+	<string name="cardioEntryZipHint">12345</string>
+	
+	<string name="cardioConfirmButton">confirmer</string>
+	<string name="cardioDoneButton">fait</string>
+	<string name="cardioCancelButton">annuler</string>
+	
+</resources>
