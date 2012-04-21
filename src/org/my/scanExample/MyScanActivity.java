@@ -1,7 +1,8 @@
-package io.card.scanExample;
+package org.my.scanExample;
 
 import io.card.payment.CardIOActivity;
 import io.card.payment.CreditCard;
+import org.my.scanExample.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
