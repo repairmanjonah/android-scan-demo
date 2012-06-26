@@ -46,6 +46,9 @@ public class MyScanActivity extends Activity
     }
     
     public void onScanPress(View v) {
+        // This method is set up as an onClick handler in the layout xml
+        // e.g. android:onClick="onScanPress"
+        
         Intent scanIntent = new Intent(this, CardIOActivity.class);
         
         // required for authentication with card.io
@@ -55,6 +58,9 @@ public class MyScanActivity extends Activity
         scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_EXPIRY, true); // default: true
         scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_CVV, false); // default: false
         scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_ZIP, false); // default: false
+        
+        // hides the manual entry button
+        // if set, developers should provide their own manual entry mechanisim in the app
         scanIntent.putExtra(CardIOActivity.EXTRA_SUPPRESS_MANUAL_ENTRY, true); // default: false
         
         startActivityForResult(scanIntent, MY_SCAN_REQUEST_CODE);
